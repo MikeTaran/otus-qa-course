@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "otus-opencart"
+version = "0.1.0"
+description = ""
+authors = ["MikeTaran <mtaran@ukr.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.0"
+selenium = "^4.11.2"
+webdriver-manager = "^4.0.0"
+allure-pytest = "^2.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
